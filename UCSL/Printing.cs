@@ -2,11 +2,6 @@
 {
     public static class Printing
     {
-        public static void WriteLineToConsole(string message)
-        {
-            Console.WriteLine(message);
-        }
-
         /// <summary>
         /// Writes each string in the specified array to the console, with each string in the array on a new line.
         /// </summary>
