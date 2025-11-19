@@ -13,10 +13,12 @@
         /// <param name="messages">An array of strings to be written to the console. Cannot be null.</param>
         public static void WriteArrayOfLinesToConsole(string[] messages)
         {
+            string Out = "";
+
             foreach (string message in messages)
-            {
-                Console.WriteLine(message);
-            }
+                Out += $"{message}\n";
+
+            Console.WriteLine(Out);
         }
     }
 }
