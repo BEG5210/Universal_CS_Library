@@ -1,6 +1,6 @@
 namespace UCSL_Testing
 {
-    public class Tests
+    public class PrintingTests
     {
         [SetUp]
         public void Setup()
