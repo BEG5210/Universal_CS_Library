@@ -1,7 +1,13 @@
 ﻿namespace UCSL
 {
-    public class Printing
+    public static class Printing
     {
+        /// <summary>
+        /// Writes each string in the specified array to the console, with each string in the array on a new line.
+        /// </summary>
+        /// <param name="messages">An array of strings to be written to the console. Cannot be null.</param>
+        public static void WriteArrayOfLinesToConsole(string[] messages)
+        {
             string Out = "";
 
             foreach (string message in messages)
