@@ -1,3 +1,4 @@
+using static UCSL.Printing;
 namespace UCSL_Testing
 {
     public class PrintingTests
