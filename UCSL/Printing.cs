@@ -1,6 +1,6 @@
 ﻿namespace UCSL
 {
-    public class Class1
+    internal class Printing
     {
 
     }
